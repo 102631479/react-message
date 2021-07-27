@@ -27,6 +27,7 @@ class Locale extends Component{
             // react-intl 进行页面国际化，在页面最外层套上 IntlProvider 组件
             <IntlProvider locale={this.state.locale} messages={this.state.localeMessages}>
                 <div>
+                
                     <div className="crumbs">
                         <Breadcrumb separator="/">
                             <Breadcrumb.Item><IconFont type="anticon-lx-global" /> <FormattedMessage id="breadcrumb"/></Breadcrumb.Item>
