@@ -7,9 +7,13 @@ import MarkdownIt from 'markdown-it';
 const mdParser = new MarkdownIt();
 
 class Markdown extends Component {
+
 	state = {
 		mdState: '# 前言'
 	};
+
+
+	
 	render() {
 		const { mdState } = this.state;
 		return (
