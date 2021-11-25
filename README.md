@@ -1,12 +1,6 @@
-# React Manage System
 
-基于 React + Ant Design 的后台管理系统解决方案。( Vue + Element 版本请看 [vue-manage-system](https://github.com/lin-xin/vue-manage-system) )
 
-## 项目截图
 
-![Image text](https://github.com/lin-xin/react-manage-system/raw/master/screenshots/rms1.png)
-
-![Image text](https://github.com/lin-xin/react-manage-system/raw/master/screenshots/rms2.png)
 
 ## 功能
 
@@ -27,6 +21,4 @@
 -   [x] 自定义图标
 -   [x] 国际化
 
-## License
 
-[MIT](https://github.com/lin-xin/react-manage-system/blob/master/LICENSE)

@@ -43,14 +43,7 @@ class Header extends Component {
 							className={styles.userName}
 							trigger={["click"]}
 							overlay={
-								<Menu onClick={this.handleDropdown.bind(this)}>
-									{/* Menu.Item必须设置唯一的key */}
-									<Menu.Item key="0" className={styles.dropItemLink}>
-										<Icon type="user" className={styles.mgr8} /> 关于作者
-									</Menu.Item>
-									<Menu.Item key="1" className={styles.dropItemLink}>
-										<Icon type="book" className={styles.mgr8} /> 项目仓库
-									</Menu.Item>
+								<Menu onClick={this.handleDropdown.bind(this)}>								
 									<Menu.Divider />
 									<Menu.Item key="2" className={styles.dropItemLink}>
 										<Icon type="logout" /> 退出登录
@@ -108,12 +101,6 @@ class Header extends Component {
 	// 用户名下拉菜单操作
 	handleDropdown({ key }) {
 		switch (key) {
-			case "0":
-				window.open("https://lin-xin.gitee.io/about/", "_blank");
-				break;
-			case "1":
-				window.open("https://github.com/lin-xin/react-manage-system", "_blank");
-				break;
 			case "2":
 				localStorage.removeItem("ms_username");
 				this.props.history.push("/login");

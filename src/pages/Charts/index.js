@@ -99,8 +99,7 @@ class Charts extends Component{
                 </div>
                 <div className="container">
                     <div className="plugins-tips">
-                        schart.js：基于HTML5 Canvas的小图表库。
-                        访问地址：<a href="https://github.com/lin-xin/sChart.js" target="_blank" rel="noopener noreferrer">schart.js</a>
+                        schart.js
                     </div>
                     <div style={styles.schartBox}>
                         <div style={styles.title}>柱状图</div>
